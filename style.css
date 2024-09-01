@@ -1,0 +1,211 @@
+/* Body */
+
+body{
+  position: relative;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Navbar */
+
+.navbar-toggler:hover{
+  background-color: #96FECF;
+}
+
+.scroll-top .navbar {
+  background-color: transparent !important;
+}
+
+#initials {
+  color: white;
+  border: 3px solid white;
+  border-radius: 200px;
+  padding: 5px 10px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#initials:hover {
+  background-color: #96FECF;
+}
+
+#home-button{
+  color: lightgray;
+  padding: 6px 15px;
+}
+
+#home-button:hover{
+  color: lightgray;
+  background-color: #96FECF;
+  border-radius: 5px;
+}
+
+#mission-target, #skills-target, #contact-target {
+  position: relative;
+  top: -70px;
+}
+
+@media(max-width: 1000px){
+  .navbar-brand, .nav-link{
+    font-size: 1.25rem;
+    margin: 5px 0px 5px 10px;
+  }
+}
+
+@media(min-width: 1000px){
+  .navbar-brand, .nav-link{
+    font-size: 1.5rem;
+    margin: 5px 0px 5px 10px;
+  }
+}
+
+@media(min-width: 1400px){
+  .nav-link{
+    font-size: 1.75rem;
+    margin: 5px 0px 5px 10px;
+  }
+
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+/* Hero Image */
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(img/glasses-computer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 60%;
+  text-align: center;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#avatar {
+  height: 15%;
+  width: 15%;
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-top: 20%;
+  box-shadow: 0 0 10px black;
+}
+
+#hero-name {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+#hero-caption {
+  color: lightgrey;
+  text-shadow: 2px 2px 5px black;
+  padding-bottom: 10vh;
+}
+
+@media(min-width: 932px){
+  #avatar {
+    height: 10%;
+    width: 10%;
+  }
+} 
+
+/* Mission Section */
+
+.disability-img {
+  width: 100%;
+  height: auto;
+  padding: auto;
+  display: block;
+}
+
+.mission-container {
+  color: white;
+  padding: 5%;
+}
+
+@media(max-width: 932px){
+  .mission-container {
+    font-size: 1.25rem;
+  }
+} 
+
+/* Skills Section */
+
+.skills-container {
+  padding: 5%;
+}
+
+.card{
+  border: none;
+  border-radius: 100px;
+  width: 100%;
+  min-height: 50vh;
+  background-color: rgba(256,256,256,0.6);
+}
+
+.card-img-top{
+  width: 75%;
+  height: auto;
+  padding-top: 10%;
+}
+
+.card-text{
+  padding: 5%;
+}
+
+@media(max-width: 932px){
+  .skills-container {
+    font-size: 1.25rem;
+  }
+} 
+
+#skills-section {
+  background-color: #96FECF !important;
+  max-height: 50%;
+}
+
+/* Contact Section */
+
+.contacts-container{
+  padding: 5%;
+}
+
+.contacts-container a{
+  color: white;
+  text-decoration: none;
+}
+
+.contacts-container a:hover{
+  color: #96FECF;
+}
+
+#contacts-section {
+  color: white;
+}
+
+@media(max-width: 932px){
+  .display-4 {
+    font-size: 4rem;
+  }
+} 
+
+/* Footer */ 
+
+footer {
+  color: lightgrey !important;
+}
+
+/* Trouble seeing the text? Click here for a plain version of the website. */
+
